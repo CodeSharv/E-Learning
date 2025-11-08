@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.admin-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.admin-container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.admin-section {
+  margin: 20px 0;
+}
+
+.admin-section h3 {
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+button {
+  background-color: #f1c40f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f39c12;
+}
+
+.logout {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.logout:hover {
+  background-color: #c0392b;
+}
+/* Upload form container */
+.upload-box {
+  background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+  padding: 35px;
+  border-radius: 15px;
+  width: 420px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Headline */
+.upload-box h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  letter-spacing: 0.5px;
+}
+
+/* Input and Textarea styling */
+.upload-box input,
+.upload-box textarea,
+.upload-box select {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: none;
+  background: #fdfdfd;
+  transition: all 0.3s ease;
+}
+
+/* On focus */
+.upload-box input:focus,
+.upload-box textarea:focus,
+.upload-box select:focus {
+  border-color: #2c5364;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(44, 83, 100, 0.3);
+}
+
+/* Button styling */
+.upload-box button {
+  background-color: #f1c40f;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}

@@ -1,0 +1,86 @@
+/* Match background with admin.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centered upload box */
+.upload-box {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 420px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Form heading */
+.upload-box h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Form fields */
+.upload-box input,
+.upload-box textarea,
+.upload-box select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0 18px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus effect */
+.upload-box input:focus,
+.upload-box textarea:focus,
+.upload-box select:focus {
+  border-color: #203a43;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(44, 83, 100, 0.3);
+}
+
+/* Submit button */
+.upload-box button {
+  background-color: #f1c40f;
+  color: #2c3e50;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.upload-box button:hover {
+  background-color: #f39c12;
+}
+
+/* Back to Dashboard link */
+.upload-box .back-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #2c5364;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.upload-box .back-btn:hover {
+  background: #203a43;
+}
